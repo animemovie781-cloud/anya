@@ -1,0 +1,33 @@
+{
+  "templateId": "kotlin_xml_empty",
+  "name": "Empty Activity (Kotlin + XML)",
+  "language": "kotlin",
+  "uiType": "xml",
+  "minimumSdk": 24,
+  "requiredFiles": [
+    "app/src/main/kotlin/{{PACKAGE_PATH}}/{{ACTIVITY_NAME}}.kt",
+    "app/src/main/res/layout/activity_main.xml",
+    "app/src/main/res/values/strings.xml",
+    "app/src/main/res/values/colors.xml",
+    "app/src/main/res/values/themes.xml",
+    "app/src/main/AndroidManifest.xml",
+    "app/build.gradle.kts",
+    "build.gradle.kts",
+    "settings.gradle.kts",
+    "gradle.properties"
+  ],
+  "directories": [
+    "app/src/main/kotlin/{{PACKAGE_PATH}}",
+    "app/src/main/res/layout",
+    "app/src/main/res/values",
+    "app/src/main/res/drawable",
+    "app/src/main/res/mipmap",
+    "gradle/wrapper"
+  ],
+  "dependencies": [
+    "androidx.core:core-ktx:1.15.0",
+    "androidx.appcompat:appcompat:1.7.0",
+    "com.google.android.material:material:1.12.0",
+    "androidx.constraintlayout:constraintlayout:2.2.0"
+  ]
+}

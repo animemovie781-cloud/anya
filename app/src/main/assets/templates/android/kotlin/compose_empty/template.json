@@ -1,0 +1,31 @@
+{
+  "templateId": "kotlin_compose_empty",
+  "name": "Empty Activity (Kotlin + Jetpack Compose)",
+  "language": "kotlin",
+  "uiType": "compose",
+  "minimumSdk": 24,
+  "requiredFiles": [
+    "app/src/main/kotlin/{{PACKAGE_PATH}}/{{ACTIVITY_NAME}}.kt",
+    "app/src/main/res/values/strings.xml",
+    "app/src/main/res/values/colors.xml",
+    "app/src/main/res/values/themes.xml",
+    "app/src/main/AndroidManifest.xml",
+    "app/build.gradle.kts",
+    "build.gradle.kts",
+    "settings.gradle.kts",
+    "gradle.properties"
+  ],
+  "directories": [
+    "app/src/main/kotlin/{{PACKAGE_PATH}}",
+    "app/src/main/res/values",
+    "app/src/main/res/drawable",
+    "app/src/main/res/mipmap",
+    "gradle/wrapper"
+  ],
+  "dependencies": [
+    "androidx.core:core-ktx:1.15.0",
+    "androidx.lifecycle:lifecycle-runtime-ktx:2.8.7",
+    "androidx.activity:activity-compose:1.10.0",
+    "androidx.compose.material3:material3"
+  ]
+}

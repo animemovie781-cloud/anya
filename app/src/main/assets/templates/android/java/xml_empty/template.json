@@ -1,0 +1,32 @@
+{
+  "templateId": "java_xml_empty",
+  "name": "Empty Activity (Java + XML)",
+  "language": "java",
+  "uiType": "xml",
+  "minimumSdk": 24,
+  "requiredFiles": [
+    "app/src/main/java/{{PACKAGE_PATH}}/{{ACTIVITY_NAME}}.java",
+    "app/src/main/res/layout/activity_main.xml",
+    "app/src/main/res/values/strings.xml",
+    "app/src/main/res/values/colors.xml",
+    "app/src/main/res/values/themes.xml",
+    "app/src/main/AndroidManifest.xml",
+    "app/build.gradle",
+    "build.gradle",
+    "settings.gradle",
+    "gradle.properties"
+  ],
+  "directories": [
+    "app/src/main/java/{{PACKAGE_PATH}}",
+    "app/src/main/res/layout",
+    "app/src/main/res/values",
+    "app/src/main/res/drawable",
+    "app/src/main/res/mipmap",
+    "gradle/wrapper"
+  ],
+  "dependencies": [
+    "androidx.appcompat:appcompat:1.7.0",
+    "com.google.android.material:material:1.12.0",
+    "androidx.constraintlayout:constraintlayout:2.2.0"
+  ]
+}
