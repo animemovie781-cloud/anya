@@ -115,9 +115,9 @@ To build an APK, run `.\gradlew.bat :app:assembleDebug` on Windows or `./gradlew
 | --- | --- |
 | [`app/`](app/) | Android application |
 | [`baselineprofile/`](baselineprofile/) | Android baseline-profile generator |
-| [`amaya-remote-extension/`](amaya-remote-extension/) | Experimental VS Code remote-session extension |
-| [`windows-bridge/`](windows-bridge/) | Experimental Windows execution bridge |
-| [`docs/`](docs/) | Project notes and references |
+| [`amaya-remote-extension/](amaya-remote-extension/) | Experimental VS Code remote-session extension |
+| [`windows-bridge/](windows-bridge/) | Experimental Windows execution bridge |
+| [`docs/](docs/) | Project notes and references |
 
 ## Contributing
 
