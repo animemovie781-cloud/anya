@@ -96,7 +96,6 @@ class AppBuilderActivity : AppCompatActivity() {
         fun start(context: Context) {
             context.startActivity(
                 Intent(context, AppBuilderActivity::class.java)
-                    .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             )
         }
     }

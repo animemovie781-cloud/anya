@@ -122,9 +122,9 @@ fun ChatDrawerContent(
     val conversationListState = rememberLazyListState()
     var conversationToDelete by remember { mutableStateOf<ConversationEntity?>(null) }
     val closeDrawerThen: ((() -> Unit) -> Unit) = { action ->
+        action()
         scope.launch {
             drawerState.close()
-            action()
         }
     }
 
