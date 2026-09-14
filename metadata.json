@@ -1,0 +1,6 @@
+{
+  "name": "Amaya",
+  "description": "Amaya intelligence application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
