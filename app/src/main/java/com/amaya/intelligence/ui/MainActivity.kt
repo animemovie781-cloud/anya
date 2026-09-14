@@ -236,6 +236,9 @@ private fun AppContent(
                     onNavigateToAgents = onNavigateToAgents,
                     onNavigateToRemoteSession = {
                         context.startActivity(android.content.Intent(context, com.amaya.intelligence.ui.activities.antigravity.RemoteSessionActivity::class.java))
+                    },
+                    onNavigateToAppBuilder = {
+                        com.amaya.intelligence.ui.activities.appbuilder.AppBuilderActivity.start(context)
                     }
                 )
             }
